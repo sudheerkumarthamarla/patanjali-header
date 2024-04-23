@@ -1,0 +1,148 @@
+.header-1{  
+    width: 100dvw;
+    display: flex;
+    position: ;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.2);
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+.header-1 img{
+    margin-left: 50px;
+    width: 10rem;
+}
+.header-1 img:hover{
+    cursor: pointer;
+}
+.search{
+    width: 40rem;
+    display: flex;
+    flex-direction: row;
+    border-color: #F7E6CE;
+}
+.search .text-box{
+    width: 85%;
+    height: 42px;
+    padding-left: 30px;
+    border-color: #F7E6CE;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.search span{
+    width: 45px;
+    height: 46px;
+    background-color: #186C38;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.search span:hover{
+    cursor: pointer;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.symbols{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 50px;
+}
+.symbols span{
+    transition: 0.5s;
+}
+.symbols span:hover{
+    cursor: pointer;
+    color:#F89F35;
+}
+.header-2{
+    display: flex;
+    flex-direction: row;
+    width: 100dvw;
+    position: fixed;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #186C38;
+    color: white;
+}
+.header-2 .button{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    width: 14rem;
+    height: 7vh;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+.header-2 .button:hover{
+    cursor: pointer;
+}
+.header-2 .pages{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.header-2 .pages li{
+    transition: 0.5s;
+}
+.header-2 .pages li:hover{
+    color: #F89F35;
+    cursor: pointer;
+
+}
+.header-2 .pages  li{
+    padding: 10px;
+}
+.header-2 .search-2 .span1{
+    display: none;
+}
+@media screen and (max-width: 790px) {
+    .search{
+        display: none;
+    }
+    .header-1{
+        padding: 0;
+    }
+    .header-1 img{
+        margin-left: 0;
+    }
+    .symbols{
+        margin-right: 0;
+        gap: 0;
+    }
+    .header-2 .button{
+        background-color: transparent;
+        color: white;
+    }
+    .header-2 .pages{
+        display: none;
+    }
+    .header-2 .search-2{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        width: 100%;
+    }
+    .header-2 .search-2 .span1{
+        display: block;
+    }
+    
+}
