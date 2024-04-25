@@ -141,6 +141,7 @@ body{
     }
     .header-2 .search-2{
         display: flex;
+        align-items: center;
         justify-content: space-between;
         margin: 0;
         width: 100%;
@@ -553,9 +554,9 @@ body{
       color: #fff!important; 
       line-height: 1;
   } 
-  .fa-envelope-o:before { 
+  /* .fa-envelope-o:before { 
     content: "\f003";
-} 
+}  */
 
 
   .subscribeBox .sendButton  { 
@@ -630,7 +631,6 @@ body{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    height: 20vh;
  }
  .category .heading{
     display: flex;
@@ -794,9 +794,9 @@ body{
     color: #03741d;
 } 
 
-.fa-star:before { 
+/* .fa-star:before { 
     content: "\f005";
-} 
+}  */
 
 .fa:before { 
     font-family: 'FontAwesome'!important;
@@ -903,13 +903,6 @@ strong {
     margin-left: 18px;
 } 
 
-.ti-eye:before { 
-    content: "\e63d";
-} 
-
-.ti-heart:before { 
-    content: "\e634";
-} 
 .shopbycategory{
     display: flex;
     justify-content: center;
